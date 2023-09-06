@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int arr [8] = {-1, 2, 4, -3, 5, 2, -5, 2 };
+int arr [8] = { -1, 2, 4, -3, 5, 2, -5, 2 };
 int n = 8;
 
 int algorithm_1() {
@@ -18,7 +18,22 @@ int algorithm_1() {
     return best;
 }
 
+int algorithm_2() {
+    int best = 0;
+    for (int a = 0; a < n; a++) {
+        int sum = 0;
+        for (int b = a; b < n; b++) {
+            sum += arr[b];
+            best = max(best, sum);
+        }
+    }
+    return best;
+}
+
 int main() {
-    int best = algorithm_1();
-    cout << best << "\n";
+    int alg_1 = algorithm_1();
+    cout << alg_1 << "\n";
+    
+    int alg_2 = algorithm_2();
+    cout << alg_2 << "\n";
 }
