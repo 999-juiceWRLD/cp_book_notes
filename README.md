@@ -8,4 +8,5 @@ Chapters are:
 
     - chapter 1: introduction
     - chapter 2: time complexity
-    - chapter 3: to be continued
+    - chapter 3: sorting
+    to be continued
