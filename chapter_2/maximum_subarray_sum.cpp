@@ -30,10 +30,22 @@ int algorithm_2() {
     return best;
 }
 
+int algorithm_3() {
+    int best = 0, sum = 0;
+    for (int k = 0; k < n; k++) {
+        sum = max(arr[k], sum + arr[k]);
+        best = max(best, sum);
+    }
+    return best;
+}
+
 int main() {
     int alg_1 = algorithm_1();
     cout << alg_1 << "\n";
     
     int alg_2 = algorithm_2();
     cout << alg_2 << "\n";
+
+    int alg_3 = algorithm_3();
+    cout << alg_3 << "\n";
 }
