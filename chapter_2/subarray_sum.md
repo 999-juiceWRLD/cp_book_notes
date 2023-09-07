@@ -12,4 +12,4 @@ It's possible to make the `algorithm_1()` more efficient, by calculating the sum
 
 ## Algorithm 3
 
-This problem is even possible to be solved in $O(n)$ time complexity (just one loop is enough).
+This problem is even possible to be solved in $O(n)$ time complexity (just one loop is enough). This algorithm is created by J. B. Kadane, and it's called by **Kadane's algorithm**.
