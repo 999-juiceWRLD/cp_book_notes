@@ -30,3 +30,11 @@ A **map** is a generalized array that consists of key-value pairs.
 ## Deque
 
 A **deque** is a dynamic array whose size can be efficiently changed at both ends of the array. Like `vector`, a deque provides the functions `push_back()` and `pop_back()`, but it also includes `push_fron()` and `pop_front()`.
+
+## Stack
+
+A **stack** is a data structure that provids two $O(1)$ time complexity operations: adding an element to the top, and removing an element from the top. It's only possible to access to top element of the stack.
+
+## Queue
+
+A **queue** also provides two $O(1)$ time operations: adding an element to the end of the queue, and removinf the first element in the queue. It's only possible to access to first and last element of a queue.
