@@ -22,3 +22,11 @@ v.size(); // returns the length of the v
 ## Set Structures
 
 A **set** is a data structure that maintains a collection of elements. A set can be used like a vector, but it is not possible to access the elements using the `[]` notation.
+
+## Map Structures
+
+A **map** is a generalized array that consists of key-value pairs.
+
+## Deque
+
+A **deque** is a dynamic array whose size can be efficiently changed at both ends of the array. Like `vector`, a deque provides the functions `push_back()` and `pop_back()`, but it also includes `push_fron()` and `pop_front()`.
