@@ -1,6 +1,6 @@
 # Sorting
 
-**Sorting** is a fundamentla algorithm design problem. Many efficient algorithms use sorting as a subroutine, because it is often easier to process data if the elements are in a sorted order. There are many algorithms for sorting, however the efficient general sorting algorithms work in $O(n\log n)$ time.
+**Sorting** is a fundamental algorithm design problem. Many efficient algorithms use sorting as a subroutine, because it is often easier to process data if the elements are in a sorted order. There are many algorithms for sorting, however the efficient general sorting algorithms work in $O(n\log n)$ time.
 
 ## $O(n^2)$ Algorithms
 
