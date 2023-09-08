@@ -1,11 +1,13 @@
 #include <iostream>
 #include <set>
 #include <vector>
+#include <map>
 using namespace std;
 
 
 void addOperation(set<char> *ptr);
 void traverseVector(vector<int> *vec);
+void printMap(map<int, float> *map);
 
 namespace CharSetOps {
     
@@ -65,6 +67,23 @@ int main() {
 
     cout << "traverse through a vector with an iterator" << endl;
     traverseVector(vecPtr);
+
+    map<int, float> nums;
+    nums[1] = 1.1;
+    nums[2] = 2.2;
+    nums[3] = 3.3;
+    map<int, float>::iterator itPtr;
+
+    cout << "print map outside the printMap() func" << endl;
+    for (itPtr = nums.begin(); itPtr != nums.end(); ++itPtr) {
+        int key = itPtr -> first;
+        float value = itPtr -> second;
+
+        // Now you can use key and value as needed
+        std::cout << "Key: " << key << ", Value: " << value << std::endl;
+    }
+
+    printMap(&nums);
 }
 
 void addOperation(set<char> *ptr) {
@@ -84,4 +103,16 @@ void traverseVector(vector<int> *vec) {
         cout << *it << ' ';
     }
     cout << endl;
+}
+
+void printMap(map<int, float> *map) {
+    cout << "print map inside the func" << endl;
+    std::map<int, float>::iterator itPtr;
+    std::map<int, float> iterateMap = *map;
+    for (itPtr = iterateMap.begin(); itPtr != iterateMap.end(); itPtr++) {
+        int key = itPtr -> first;
+        float val = itPtr -> second;
+
+        cout << "Key: " << key << ", Value: " << val << endl; 
+    }
 }
