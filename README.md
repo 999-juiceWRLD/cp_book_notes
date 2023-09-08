@@ -12,5 +12,6 @@ Chapters are:
     - chapter 2: time complexity
     - chapter 3: sorting
     - chapter 4: data structures
+    - chapter 5: general search
 
 to be continued
