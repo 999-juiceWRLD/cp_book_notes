@@ -1,3 +1,7 @@
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
 # Sorting
 
 **Sorting** is a fundamentla algorithm design problem. Many efficient algorithms use sorting as a subroutine, because it is often easier to process data if the elements are in a sorted order. There are many algorithms for sorting, however the efficient general sorting algorithms work in $O(n\log n)$ time.
