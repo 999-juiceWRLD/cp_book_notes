@@ -21,3 +21,5 @@ Merge sort sorts a subarray `array[a...b]` as follows:
 3. Recursively sort the subarray `array[a...k]`.
 4. Recursively sort the subaray `array[k+1...b]`.
 5. Merge the sorted subarrays `array[a...k]` and `array[k+1...b]` into a sorted subarray `array[a...b]`.
+
+**NOTE:** This was just a simple intuition, therefore I didn't put the real implementation of merge sort.
