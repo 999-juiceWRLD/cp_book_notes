@@ -6,7 +6,7 @@
 
 A famous $O(n^2)$ time sorting algorithm is **bubble sort**. Bubble sort consists of $n$ rounds. On each round, the algorithm iterates thorugh the lements of the array. Whenever two consecutive elements are found that are not in correct order, the algorithm swaps them. Bubble sort is an example of a sorting algorithm that always swaps *consecutive* elements in the array.
 
-**NOTE:** A useful concept when analyzing sorting algorithms is an **inversion:** `array[a] > array[b]` where $ a<b $. The number of inversions indicates how much work is needed to sort the array. Once the inversion is done, an array is completely sorted.
+**NOTE:** A useful concept when analyzing sorting algorithms is an **inversion:** `array[a] > array[b]` where $a < b$. The number of inversions indicates how much work is needed to sort the array. Once the inversion is done, an array is completely sorted.
 
 ## $O(n\log n)$ Algorithms
 
