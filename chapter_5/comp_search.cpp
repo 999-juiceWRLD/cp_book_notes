@@ -59,5 +59,4 @@ int main() {
     std::cout << "Total element of vector: " << totalNum << std::endl;
 
     subset.get_subset();
-    // std::cout << "Total element of vector: " << subs.get_vec_length() << std::endl;
 }
