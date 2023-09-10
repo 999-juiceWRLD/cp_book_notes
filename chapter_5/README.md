@@ -9,3 +9,16 @@ Complete search is a good technique if there is enough time to go through all th
 We first consider the problem of generating all subsets of a set of $n$ elements. There are two common ways to achieve this, first one is using recursion and the latter is bit representation.
 
 I created the `get_subset()` method on my own because the code snippet given in the book was not explanatory.
+
+## Backtracking
+
+**Backtracking** is a general algorithm begins with an empty solution and extends the solution step by step. They are a crucial technique used in solving problems that involve finding a solution incrementally by trying out different possibilities and undoing them if they don't lead to a valid solution. Backtracking is commonly used in combinatorial and optimization problems.
+
+Common applications:
+
+- N-Queen Problem
+- Sudoku Solving Algorithm
+- Graph Algorithm
+- Hamiltonian Cycle
+- Subset Sum
+    etc.
