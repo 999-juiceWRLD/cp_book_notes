@@ -21,4 +21,5 @@ Common applications:
 - Graph Algorithm
 - Hamiltonian Cycle
 - Subset Sum
-    etc.
+
+etc.
