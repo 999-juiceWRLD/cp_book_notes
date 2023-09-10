@@ -7,3 +7,5 @@ Complete search is a good technique if there is enough time to go through all th
 ## Generating Subsets
 
 We first consider the problem of generating all subsets of a set of $n$ elements. There are two common ways to achieve this, first one is using recursion and the latter is bit representation.
+
+I created the `get_subset()` method on my own because the code snippet given in the book was not explanatory.
