@@ -1,39 +1,13 @@
 #include <iostream>
 #include <vector>
 #include "base.cpp"
-using namespace Base;
 
 namespace Combination {
-        template <typename T> class Subset: public BaseClass<T> {
-            protected:
-                int length = 0;
+        template <class T> class Subset: public BaseClass<T> {
+
             public:
-                std::vector<T> vec;
-
-                void increment_length() {
-                    length += 1;
-                }
-
-                void decrement_length() {
-                    length -= 1;
-                }
-                
-                void add_element(T K) {
-                    vec.push_back(K);
-                    increment_length();
-                }
-
-                void remove_element(T K) {
-                    vec.pop_back(K);
-                    decrement_length();
-                }
-
-                int get_vec_length() {
-                    return length;
-                }
-
-                void get_subset(T K = 0, std::vector<T> subset = {}) {
-                    if (K == length) {
+                void get_subset(int K = 0, std::vector<T> subset = {}) {
+                    if (K == this->length) {
                         std::cout << '[';
                         for (T c: subset) {
                             std::cout << c << ", ";
@@ -41,7 +15,7 @@ namespace Combination {
                         std::cout << "]\n";
                     } else {
                         get_subset(K + 1, subset);
-                        subset.push_back(vec[K]);
+                        subset.push_back(this->vec[K]);
                         get_subset(K + 1, subset);
                         subset.pop_back();
                     }
@@ -59,6 +33,6 @@ int main() {
 
     int totalNum = subset.get_vec_length();
     std::cout << "Total element of vector: " << totalNum << std::endl;
-
+    subset.print_elements();
     subset.get_subset();
 }
