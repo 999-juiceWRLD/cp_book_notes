@@ -23,3 +23,7 @@ Common applications:
 - Subset Sum
 
 etc.
+
+## Pruning
+
+We can often optimize backtracking by pruning the search tree. The idea is to add 'intelligence' to the algorithm so that, it will notice as soon as possible if a partial solution cannot be extended to a complete solution. Such optimizations can have a tremendous effect on the efficiency of the search.
