@@ -15,5 +15,6 @@ Chapters are:
     - chapter 3: sorting
     - chapter 4: data structures
     - chapter 5: general search
+    - chapter 6: greedy algorithms
 
 to be continued
