@@ -24,3 +24,5 @@ Many schedulin problems can be solved using greedy algorithms. A classic problem
 | B     | 2             | 5           |
 | C     | 3             | 9           |
 | D     | 6             | 8           |
+
+In this case, the maximum number of events can be attended is two — events $B$ and $D$, or $A$ and $D$.
