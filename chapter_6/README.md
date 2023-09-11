@@ -26,3 +26,16 @@ Many schedulin problems can be solved using greedy algorithms. A classic problem
 | D     | 6             | 8           |
 
 In this case, the maximum number of events can be attended is two — events $B$ and $D$, or $A$ and $D$.
+
+## Tasks and Deadlines
+
+Now consider a new problem where we are given $n$ tasks with durations and deadlines and our task is to choose and order to perform the tasks. For each task, we earn $d - x$ points where $d$ is the task's deadline and $x$ is the moment when we finish the task. What is the largest possible total score we can obtain?
+
+Suppose the tasks as follows:
+
+| task | duration | deadline |
+|------|----------|----------|
+| A    | 4        | 2        |
+| B    | 3        | 5        |
+| C    | 2        | 7        |
+| D    | 4        | 5        |
