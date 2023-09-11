@@ -45,3 +45,9 @@ In this case, the optimal solution for this problem is:
 `C -> B -> A -> D`
 
 $C$ yields $5$ points, $B$ yields $0$ points, $A$ yields $-7$ points and $D$ yields $-8$ points, so the total score is $-10$.
+
+## Minimizing Sums
+
+We next consider a problem where we are given $n$ numbers $a_1, a_2, a_3, ..., a_n$ and our task is to find a values $x$ that minimizes the sum
+
+$|a_1 - x|^c + |a_2 - x|^c + ... + |a_n - x|^c$
