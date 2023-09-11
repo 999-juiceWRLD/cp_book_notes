@@ -39,3 +39,9 @@ Suppose the tasks as follows:
 | B    | 3        | 5        |
 | C    | 2        | 7        |
 | D    | 4        | 5        |
+
+In this case, the optimal solution for this problem is:
+
+`C -> B -> A -> D`
+
+$C$ yields $5$ points, $B$ yields $0$ points, $A$ yields $-7$ points and $D$ yields $-8$ points, so the total score is $-10$.
