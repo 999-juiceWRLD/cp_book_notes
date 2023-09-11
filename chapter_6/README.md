@@ -8,7 +8,7 @@ However, in many problems, a greedy strategy does not produce an optimal solutio
 
 ## Coin Problem
 
-Consider a problem where we are given a set of coins and our task is to form a sum of money $n$ using the coins. The values of the coins are `coins` $= {c_1, c_2, c_3, ..., c_k}$ and each coins can be used as many times as we want. What is the minimum number of coins needed?
+Consider a problem where we are given a set of coins and our task is to form a sum of money $n$ using the coins. The values of the coins are `coins` $= \{c_1, c_2, c_3, ..., c_k \}$ and each coins can be used as many times as we want. What is the minimum number of coins needed?
 
 ## Greedy Algorithm
 
